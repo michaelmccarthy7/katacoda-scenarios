@@ -17,3 +17,5 @@ class newspaper:
     publisher = ""
     
 ```Copy to {{copy}}
+
+<pre class="file" data-target="clipboard">Test</pre>
