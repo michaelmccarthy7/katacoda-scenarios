@@ -17,5 +17,8 @@ class newspaper:
     description = ""
     price = 0.0
     publisher = ""
+    
 </pre>
+
+
 python test.py{{execute}}
