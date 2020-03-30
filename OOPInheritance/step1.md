@@ -16,5 +16,4 @@ class newspaper:
     price = 0.0
     publisher = ""
     
-```
-{{copy}}
+```Copy to {{copy}}
