@@ -19,13 +19,21 @@ class newspaper:
 ``` {{copy}}
 
 <pre class="file" data-filename="test.py" data-target="replace">var http = require('http');
-var requestListener = function (req, res) {
-  res.writeHead(200);
-  res.end('Hello, World!');
-}
-
-var server = http.createServer(requestListener);
-server.listen(3000, function() { console.log("Listening on port 3000")});
+class grocery:
+    description = ""
+    price = 0.0
+    weight = 0.0
+    
+class mineral:
+    description = ""
+    price = 0.0
+    volume = 0.0
+    
+class newspaper:
+    description = ""
+    price = 0.0
+    publisher = ""
 </pre>
+{{execute}}
 
 <pre class="file" data-target="clipboard">Test</pre>
