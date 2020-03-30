@@ -13,12 +13,27 @@ class mineral:
     price = 0.0
     volume = 0.0
     
+    def __init__(self,d,p,v):
+        self.description = d
+        self.price = p
+        self.volume = v
+    
 class newspaper:
     description = ""
     price = 0.0
     publisher = ""
     
+    
+newItem = mineral("Coke", 1.80, 500.0)
+
+print newItem.description
+    
 </pre>
 
 
-python test.py{{execute}}
+copy the code to the editor and run it by typeing 
+
+<pre>
+python test.py 
+</pre>
+in the terminal.
