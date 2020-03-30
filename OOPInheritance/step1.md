@@ -26,7 +26,7 @@ class newspaper:
     
 newItem = mineral("Coke", 1.80, 500.0)
 
-print newItem.description
+print (newItem.description)
     
 </pre>
 
