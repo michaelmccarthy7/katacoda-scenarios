@@ -1,6 +1,6 @@
 ### No Inheritance
 If we were to use classes without inheritance for the following example the classes might look like this:
-```python
+<pre>
 class grocery:
     description = ""
     price = 0.0
@@ -16,6 +16,6 @@ class newspaper:
     price = 0.0
     publisher = ""
     
-```Copy to {{copy}}
+</pre>Copy to {{copy}}
 
 <pre class="file" data-target="clipboard">Test</pre>
