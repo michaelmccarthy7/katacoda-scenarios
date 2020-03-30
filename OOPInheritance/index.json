@@ -35,5 +35,8 @@
   "backend": {
     "imageid": "python:3.6"
   },
-    "assets": { "client": [{"file": "test.py", "target": "/", "chmod": "+x"}] }
+    "assets": { "client": [{"file": "test.py", "target": "/", "chmod": "+x"}] },
+    "files": [
+    "test.py"
+  ]
 }
