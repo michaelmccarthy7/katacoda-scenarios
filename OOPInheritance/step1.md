@@ -1,6 +1,6 @@
 ### No Inheritance
 If we were to use classes without inheritance for the following example the classes might look like this:
-<pre>
+```python
 class grocery:
     description = ""
     price = 0.0
@@ -16,9 +16,9 @@ class newspaper:
     price = 0.0
     publisher = ""
     
-</pre>Copy to {{copy}}
+``` {{copy}}
 
-<pre class="file" data-filename="app.js" data-target="replace">var http = require('http');
+<pre class="file" data-filename="test.py" data-target="replace">var http = require('http');
 var requestListener = function (req, res) {
   res.writeHead(200);
   res.end('Hello, World!');
