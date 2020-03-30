@@ -7,6 +7,11 @@ class grocery:
     description = ""
     price = 0.0
     weight = 0.0
+        
+    def __init__(self,d,p,w):
+        self.description = d
+        self.price = p
+        self.weight = w
     
 class mineral:
     description = ""
@@ -23,15 +28,19 @@ class newspaper:
     price = 0.0
     publisher = ""
     
+    def __init__(self,d,p,pb):
+        self.description = d
+        self.price = p
+        self.publisher = pb
+    
     
 newItem = mineral("Coke", 1.80, 500.0)
-
 print (newItem.description)
     
 </pre>
 
 
-copy the code to the editor and run it by typeing 
+copy the code to the editor and run it by typing 
 
 <pre>
 python test.py 
